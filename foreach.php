@@ -1,6 +1,12 @@
 <?php
- $data = array();
- foreach($progress_details as $key => $value){
+/**
+ * $array_data from sql query like : result_array, or 
+ * $array_data from plain array, ja foreach diye run kora jai 
+ */
+
+
+ $data = array(); // storing =>> new customize data 
+ foreach($array_data as $key => $value){
             /**
              * rule of customize array
              * foreach as value ta hobe actual array for working
@@ -8,13 +14,17 @@
              * example: $value[1st_index];
              * now ami jodi chai 1st_index a kichu rakte tobe $value[1st_index] ekhane 1st_index er ..
              * name diye value set korlei peye jabo. like  $value['custom_index_name'] = 'ja store korte cai-plain value/array/object';
-             * 
+             * $value[kichu na dile, default value dhorbe-- like 0 theke suru korbe]
+             * 1st index: $value[1st_index], 2nd index : $value[1st_index][2nd_index]
+             * 3rd index : $value[1st_index][2nd_index][3rd_index] so on...
              */
+
              /**
              * array $value
              * $value[index]
              * $value[index][inner_index]
              */
+
             /**
              * each array value = $value;
              * so, i want to last array with custome index where mutliple index
@@ -25,9 +35,14 @@
              *     [data-3] => adjfkasdf
              * )
             */
-            $value['value_array']['data-1']= 'value or array_value';
-            $value['value_array']['data-2']= 'value or array_value';
-            $value['value_array']['data-3']= 'value or array_value';
+            $value['value_array']['index-1']= 'value or array_value';
+            $value['value_array']['index-2']= 'value or array_value';
+            $value['value_array']['index-3']= 'value or array_value';
+            $value['value_array']['index-4']['index-5']= 'value or array_value';
+
+            /**
+             * 
+             */
  }
  dd($data);
 ?>
