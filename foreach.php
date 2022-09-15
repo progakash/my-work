@@ -41,8 +41,22 @@
             $value['value_array']['index-4']['index-5']= 'value or array_value';
 
             /**
+             * i need outer index : like $data array te new index cachi 
              * 
              */
+            $data[]= 'value';
+            $data['name'][]= 'value';
+            $data['name'][][]= 'value';
+            //.....so, 1st forward
+
+            /**
+             * same index a multiple data store
+             */
+            $data['same_index']['name']= 'how are you';
+            $data['same_index']['name1']= 'how are you';
+
+            //FINALY ALL VALUE IN STORE 
+            $data[] = $value;
  }
  dd($data);
 ?>
