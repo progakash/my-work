@@ -1,8 +1,8 @@
 <?php 
-namespace Akash;
+namespace Akash\Anaya\noor;
 class Aaira {
     function fun(){
-        echo 'hi akash';
+        echo 'hi';
     }
 }
 ?>

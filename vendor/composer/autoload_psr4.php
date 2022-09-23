@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Akash\\' => array($baseDir . '/src'),
+    'Akash\\' => array($baseDir . '/src', $baseDir . '/load'),
 );

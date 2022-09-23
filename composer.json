@@ -2,7 +2,8 @@
     "name": "hp/autoload",
     "autoload": {
         "psr-4": {
-            "Akash\\": "src/"
+            "Akash\\": ["src/", "load/"],
+            "Naher\\": "noor/"
         }
     },
     "authors": [

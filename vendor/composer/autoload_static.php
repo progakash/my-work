@@ -17,6 +17,7 @@ class ComposerStaticInit5dcb9fc66ac1b52840899477d86f16bd
         'Akash\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+            1 => __DIR__ . '/../..' . '/load',
         ),
     );
 
