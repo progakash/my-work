@@ -6,5 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Naher\\' => array($baseDir . '/noor'),
     'Akash\\' => array($baseDir . '/src', $baseDir . '/load'),
 );

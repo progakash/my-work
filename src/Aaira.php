@@ -2,7 +2,7 @@
 namespace Akash;
 class Aaira {
     function fun(){
-        echo 'hi akash';
+        echo "hi akash\n";
     }
 }
 ?>

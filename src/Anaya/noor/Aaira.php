@@ -2,7 +2,7 @@
 namespace Akash\Anaya\noor;
 class Aaira {
     function fun(){
-        echo 'hi';
+        echo "hi\n";
     }
 }
 ?>
