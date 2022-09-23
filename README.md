@@ -6,6 +6,10 @@ composer init
 
 ## psr-4
 
+## "Akash\\": ["src/", "load/"], 
+multiple directory with same prefix
+## "Naher\\": "noor/"
+diffreren prefix with another directory
 #### put value using key:value pair
 
 ```http
