@@ -1,0 +1,15 @@
+{
+    "name": "hp/autoload",
+    "autoload": {
+        "psr-4": {
+            "Akash\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "akash-ju16",
+            "email": "akash.ju.msc@gmail.com"
+        }
+    ],
+    "require": {}
+}
